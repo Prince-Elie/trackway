@@ -2,6 +2,12 @@
 
 A sleek, modern, and responsive logistics management dashboard built with React, Tailwind CSS, and Recharts. Trackway provides real-time tracking and management of shipments, vehicles, and fleet operations.
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Now-blue?style=for-the-badge)](https://prince-elie.github.io/trackway/)
+
+## 📸 Preview
+
+![Trackway Dashboard Screenshot](./Capture%20d'écran%202026-04-01%20212126.png)
+
 ## ✨ Features
 
 - **📊 Interactive Dashboard** - Comprehensive overview of fleet metrics, shipments, and performance indicators
@@ -146,7 +152,7 @@ MIT License - feel free to use this project for commercial and personal purposes
 
 ## 👨‍💻 Author
 
-**Prince Elie** - Full Stack Developer
+**Prince Elie** - Frontend Developer
 
 ## 🤝 Contributing
 
