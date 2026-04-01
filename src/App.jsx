@@ -6,7 +6,7 @@ import ShipList from "./pages/ShipList";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/trackway">
       <DashboardLayout>
         <Routes>
           <Route path="/" element={<Dashboard />} />
