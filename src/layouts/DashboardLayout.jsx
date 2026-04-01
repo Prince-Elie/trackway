@@ -4,14 +4,10 @@ import { Link } from "react-router-dom";
 const DashboardLayout = ({ children }) => {
   return (
     <div className="flex h-screen bg-gray-100 text-gray-800">
-      {/* Sidebar */}
       <aside className="w-64 bg-white border-r border-gray-200 flex flex-col">
-        {/* Logo */}
         <div className="h-16 flex items-center justify-center border-b border-gray-200">
           <h1 className="text-2xl font-bold text-blue-600">Trackway</h1>
         </div>
-
-        {/* Nav */}
         <nav className="flex-1 p-4 space-y-2">
           <Link
             to="/"
@@ -99,10 +95,7 @@ const DashboardLayout = ({ children }) => {
           </Link>
         </nav>
       </aside>
-
-      {/* Main Content */}
       <div className="flex flex-col flex-1 overflow-hidden">
-        {/* Header */}
         <header className="h-16 bg-white shadow-sm flex items-center justify-between px-6 border-b border-gray-200">
           <h2 className="text-lg font-semibold text-gray-700">Track Management</h2>
           <div className="flex items-center gap-4">
@@ -113,8 +106,6 @@ const DashboardLayout = ({ children }) => {
             />
           </div>
         </header>
-
-        {/* Content */}
         <main className="flex-1 overflow-y-auto p-6 bg-gray-50">
           {children}
         </main>

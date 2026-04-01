@@ -137,7 +137,6 @@ export default function Dashboard() {
 
   return (
     <div className="p-6 bg-gray-50 min-h-screen">
-      {/* Header */}
       <div className="flex justify-between items-center mb-6">
         <div>
           <h1 className="text-2xl font-bold text-gray-900">Dashboard Overview</h1>
@@ -154,8 +153,6 @@ export default function Dashboard() {
           </button>
         </div>
       </div>
-
-      {/* Metric Cards */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
         {metrics.map((metric, i) => (
           <div
@@ -185,10 +182,7 @@ export default function Dashboard() {
           </div>
         ))}
       </div>
-
-      {/* Charts Section */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
-        {/* Line Chart - Shipment Trend */}
         <div className="bg-white rounded-xl shadow-sm p-6">
           <h2 className="text-lg font-semibold text-gray-900 mb-4">
             Monthly Shipment Performance
@@ -206,8 +200,6 @@ export default function Dashboard() {
             </LineChart>
           </ResponsiveContainer>
         </div>
-
-        {/* Bar Chart - Vehicle Usage */}
         <div className="bg-white rounded-xl shadow-sm p-6">
           <h2 className="text-lg font-semibold text-gray-900 mb-4">
             Vehicle Utilization
@@ -224,8 +216,6 @@ export default function Dashboard() {
           </ResponsiveContainer>
         </div>
       </div>
-
-      {/* Recent Shipments Table */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h2 className="text-lg font-semibold text-gray-900 mb-4">
           Recent Shipments

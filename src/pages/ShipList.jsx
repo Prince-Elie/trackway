@@ -46,7 +46,6 @@ export default function ShipList() {
 
   return (
     <div className="p-6 bg-gray-50 min-h-screen">
-      {/* Header */}
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 gap-4">
         <div>
           <h1 className="text-2xl font-bold text-gray-900">Shipment List</h1>
@@ -63,8 +62,6 @@ export default function ShipList() {
           </button>
         </div>
       </div>
-
-      {/* Table */}
       <div className="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden">
         <table className="min-w-full text-sm text-gray-700">
           <thead className="bg-gray-100 text-gray-600 uppercase text-xs">
@@ -123,8 +120,6 @@ export default function ShipList() {
           </tbody>
         </table>
       </div>
-
-      {/* Pagination */}
       <div className="flex justify-between items-center mt-6">
         <p className="text-sm text-gray-500">
           Showing <strong>1-5</strong> of <strong>20</strong> shipments
